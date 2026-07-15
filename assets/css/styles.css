@@ -644,7 +644,8 @@ a {
     justify-content: center;
     width: 28.471px;
     height: 28.471px;
-    fill: #F9F9F9;
+    background-color: #F9F9F9;
+    border-radius: 5px;
     margin-right: 16.06px;
 }
 
