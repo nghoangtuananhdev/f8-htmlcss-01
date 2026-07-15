@@ -615,7 +615,7 @@ a {
 
 .footer .row-top .list .list-item {
     margin-top: 18px;
-    color: #7A7A7E;
+    color: #7A7A7E; 
     font-size: 1.6rem;
     font-weight: 400;
     white-space: nowrap;
@@ -623,7 +623,7 @@ a {
 }
 
 .footer .row-top .list .list-item a:visited {
-    color: #7A7A7E;
+    color: #7A7A7E !important;
 }
 
 .footer .row-top .desc {
