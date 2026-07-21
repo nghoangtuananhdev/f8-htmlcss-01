@@ -15,61 +15,80 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./assests/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
-    <main>
-        <!-- Fix-header -->
-        <header class="fixed-header">
-            <div class="content">
-                <!-- Navbar -->
-                <nav class="navbar">
-                    <!-- Logo -->
-                    <a href="/">
-                        <img src="./assets/img/besnik-logo.svg" alt="Besnik.">
-                    </a>
-                    <!-- Navigation -->
-                    <ul>
-                        <li><a href="#!">Home</a></li>
-                        <li><a href="#!">Features</a></li>
-                        <li><a href="#!">Services</a></li>
-                        <li><a href="#!">Resoources</a></li>
-                        <li><a href="#!">Contact</a></li>
-                    </ul>
-                    <!-- Action -->
-                    <div class="actions">
-                        <a href="#!" class="action-link">Sign in</a>
-                        <a href="#!" class="btn actions-btn">Sign up</a>
-                    </div>
-                </nav>
-            </div>
-        </header>
 
-        <!-- Header -->
-        <div class="hero-wrap">
-            <div class="content">
-                <!-- Hero -->
-                <div class="hero">
-                    <div class="info">
-                        <p class="sub-title">Welcome to Besnik Agency</p>
-                        <h1 class="title">
-                            Discover a place
-                            you'll love to live.
-                        </h1>
-                        <p class="desc">
-                            Get the best real estate deals first,
-                            before they hit the mass market! hot foreclosure deals with one simple search.
-                        </p>
-                        <!-- Call To Action -->
-                        <a href="#!" class="btn hero-cta">More About Us</a>
-                        <!-- Hero-image -->
-                        <img src="./assets/img/hero-img.svg" alt="Discover a place you'll love to live."
-                            class="hero-img">
-                    </div>
+    <!-- Fix-header -->
+    <header class="fixed-header">
+        <div class="content">
+            <!-- Navbar -->
+            <nav class="navbar">
+                <!-- Logo -->
+                <a href="#home">
+                    <img src="./assets/img/besnik-logo.svg" alt="Besnik.">
+                </a>
+                <!-- Navigation -->
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <!-- Action -->
+                <div class="actions">
+                    <a href="#!" class="action-link">Sign in</a>
+                    <a href="#!" class="btn actions-btn">Sign up</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Header -->
+    <div class="hero-wrap">
+        <div class="content">
+            <!-- Hero -->
+            <div class="hero">
+                <div class="info">
+                    <p class="sub-title">Welcome to Besnik Agency</p>
+                    <h1 class="title">
+                        Discover a place
+                        you'll love to live.
+                    </h1>
+                    <p class="desc">
+                        Get the best real estate deals first,
+                        before they hit the mass market! hot foreclosure deals with one simple search.
+                    </p>
+                    <!-- Call To Action -->
+                    <a href="#!" class="btn hero-cta">More About Us</a>
+                    <!-- Hero-image -->
+                    <img src="./assets/img/hero-img.svg" alt="Discover a place you'll love to live." class="hero-img">
                 </div>
             </div>
         </div>
+    </div>
 
+    <main>
         <!-- Clients -->
         <div class="clients">
             <div class="content">
@@ -90,7 +109,7 @@
                     <p class="desc">5 Star Ratings (2k+ Review)</p>
                 </div>
                 <!-- Images -->
-                <div class="images">
+                <div class="images" id="services">
                     <a href="#!">
                         <img src="./assets/img/me-undies.svg" alt="Me-Undies">
                     </a>
@@ -158,7 +177,7 @@
         </div>
 
         <!-- Featured -->
-        <div class="featured">
+        <div class="featured" id="features">
             <div class="content">
                 <header>
                     <h2 class="sub-title">Featured Properties</h2>
@@ -226,7 +245,7 @@
                                 <span class="label">2 both</span>
 
                                 <img src="./assets/img/sqft.svg" alt="" class="icon">
-                                <span class="label">2000 Sqft</span>
+                                <span id="resources" class="label">2000 Sqft</span>
                             </div>
                         </div>
                     </div>
@@ -309,7 +328,7 @@
                     </div>
                 </div>
                 <div class="row row-qty">
-                    <div class="qty-item">
+                    <div class="qty-item" id="contact">
                         <strong class="qty">2,500</strong>
                         <p class="desc">Homes For Sale</p>
                     </div>
@@ -339,86 +358,87 @@
                 </div>
             </div>
         </div>
+    </main>
 
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="content">
-                <!-- Footer Row 1 -->
-                <div class="row row-top">
-                    <div class="col">
-                        <h3 class="heading">Product</h3>
-                        <ul class="list">
-                            <li class="list-item">
-                                <a href="#!">Listing</a>
-                            </li>
-                            <li class="list-item">
-                                <a href="#!">Property</a>
-                            </li>
-                            <li class="list-item">
-                                <a href="#!">Agents</a>
-                            </li>
-                            <li class="list-item">
-                                <a href="#!">Blog</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col">
-                        <h3 class="heading">Resources</h3>
-                        <ul class="list">
-                            <li class="list-item">
-                                <a href="#!">Our Homes</a>
-                            </li>
-                            <li class="list-item">
-                                <a href="#!">Member Stories</a>
-                            </li>
-                            <li class="list-item">
-                                <a href="#!">Video</a>
-                            </li>
-                            <li class="list-item">
-                                <a href="#!">Free trial</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col">
-                        <h3 class="heading">Company</h3>
-                        <ul class="list">
-                            <li class="list-item">
-                                <a href="#!">Patnerships</a>
-                            </li>
-                            <li class="list-item">
-                                <a href="#!">Terms of use</a>
-                            </li>
-                            <li class="list-item">
-                                <a href="#!#!">Privacy</a>
-                            </li>
-                            <li class="list-item">
-                                <a href="#!">Sitemap</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col">
-                        <h3 class="heading">Get in touch</h3>
-                        <p class="desc">You'll find your next home, in any style you prefer.</p>
-                        <div class="social">
-                            <a href="#!" class="social-link">
-                                <img src="./assets/img/facebook-icon.svg" alt="Facebook" class="icon">
-                            </a>
-                            <a href="#!" class="social-link">
-                                <img src="./assets/img/twitter-icon.svg" alt="Twitter" class="icon">
-                            </a>
-                            <a href="#!" class="social-link">
-                                <img src="./assets/img/linked-in-icon.svg" alt="Linkedin" class="icon">
-                            </a>
-                        </div>
-                    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="content">
+            <!-- Footer Row 1 -->
+            <div class="row row-top">
+                <div class="col">
+                    <h3 class="heading">Product</h3>
+                    <ul class="list">
+                        <li class="list-item">
+                            <a href="#!">Listing</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#!">Property</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#!">Agents</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#!">Blog</a>
+                        </li>
+                    </ul>
                 </div>
-                <!-- Footer Row 2 -->
-                <div class="row  row-bottom">
-                    <img src="./assets/img/besnik-logo.svg" alt="Besnik." class="logo">
-                    <p class="copyright">Copyright 2020.com, All rights reserved.</p>
+                <div class="col">
+                    <h3 class="heading">Resources</h3>
+                    <ul class="list">
+                        <li class="list-item">
+                            <a href="#!">Our Homes</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#!">Member Stories</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#!">Video</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#!">Free trial</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3 class="heading">Company</h3>
+                    <ul class="list">
+                        <li class="list-item">
+                            <a href="#!">Patnerships</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#!">Terms of use</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#!#!">Privacy</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#!">Sitemap</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3 class="heading">Get in touch</h3>
+                    <p class="desc">You'll find your next home, in any style you prefer.</p>
+                    <div class="social">
+                        <a href="#!" class="social-link">
+                            <img src="./assets/img/facebook-icon.svg" alt="Facebook" class="icon">
+                        </a>
+                        <a href="#!" class="social-link">
+                            <img src="./assets/img/twitter-icon.svg" alt="Twitter" class="icon">
+                        </a>
+                        <a href="#!" class="social-link">
+                            <img src="./assets/img/linked-in-icon.svg" alt="Linkedin" class="icon">
+                        </a>
+                    </div>
                 </div>
             </div>
-        </footer>
+            <!-- Footer Row 2 -->
+            <div class="row  row-bottom">
+                <img src="./assets/img/besnik-logo.svg" alt="Besnik." class="logo">
+                <p class="copyright">Copyright 2020.com, All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
     </main>
 </body>
 
