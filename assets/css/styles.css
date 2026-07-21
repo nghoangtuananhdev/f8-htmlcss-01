@@ -185,12 +185,13 @@ a {
     justify-content: center;
     width: 204px;
     height: 91px;
-    border-radius: 12px;
 }
 
 .clients .images a:hover {
+    border-radius: 12px;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.10);
 }
+
 
 .clients .images img:nth-child(3) {
     margin-top: 18px;
